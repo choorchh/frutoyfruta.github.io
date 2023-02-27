@@ -1,0 +1,62 @@
+.cabecera{
+text-align: center;
+background: #f9f9f9;
+display: flex;
+justify-content: space-between;
+padding-left: 2rem;
+padding-right: 2rem;
+}
+.menu__lista{
+    display: flex;
+}
+.menu__item{
+    list-style: none;
+}
+.menu__link{
+    color: #808080;
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+.menu__link:hover{
+    text-decoration: underline;
+
+}
+.menu__link .activo{
+    color: black;
+}
+ /* -----------banner--------------- */
+ .banner{
+    position: relative;
+ }
+ .banner__imagen{
+   
+   width: 100%;
+    height: calc(100vh - 72px);
+ }
+ .banner__titulo{
+    color: #fdfdfd;
+    font-family: pacifico , cursive;
+    font-size: 5.0625rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+ }
+ /* ------------sobre ------------ */
+ .sobre{
+    padding: 2.5rem;
+    text-align: center;
+ }
+ .sobre__titulo{
+    color: #da2b1f;
+    font-family: pacifico, cursive;
+    font-size: 3.1875rem;
+ }
+ .sobre__descripcion{
+    color: #8C8888;
+    font-size: 1.75rem;
+    font-weight: 100;
+ }
